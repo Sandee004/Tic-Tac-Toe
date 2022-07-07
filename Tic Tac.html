@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Tic Tac.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <button id="restartBtn">Restart</button>
+
+        <div id="gameboard">
+            <div class="box" id="0"><p id="ex0">X</p></div>
+            <div class="box" id="1"><p id="ex1">X</p></div>
+            <div class="box" id="2"><p id="ex2">X</p></div><br>
+            <div class="box2" id="3"><p id="ex3">X</p></div>
+            <div class="box2" id="4"><p id="ex4">X</p></div>
+            <div class="box2" id="5"><p id="ex5">X</p></div><br>
+            <div class="box3" id="6"><p id="ex6">X</p></div>
+            <div class="box3" id="7"><p id="ex7">X</p></div>
+            <div class="box3" id="8"><p id="ex8">X</p></div>
+        </div>
+    </div>
+    
+
+    <script>
+        var bat= document.getElementById("0");
+        bat.onclick= function() {
+            document.getElementById("ex0").style.display= "block";
+        }
+
+        var bat= document.getElementById("1");
+        bat.onclick= function() {
+            document.getElementById("ex1").style.display= "block";
+        }
+
+        var bat= document.getElementById("2");
+        bat.onclick= function() {
+            document.getElementById("ex2").style.display= "block";
+        }
+
+        var bat= document.getElementById("3");
+        bat.onclick= function() {
+            document.getElementById("ex3").style.display= "block";
+        }
+
+        var bat= document.getElementById("4");
+        bat.onclick= function() {
+            document.getElementById("ex4").style.display= "block";
+        }
+
+        var bat= document.getElementById("5");
+        bat.onclick= function() {
+            document.getElementById("ex5").style.display= "block";
+        }
+
+        var bat= document.getElementById("6");
+        bat.onclick= function() {
+            document.getElementById("ex6").style.display= "block";
+        }
+
+        var bat= document.getElementById("7");
+        bat.onclick= function() {
+            document.getElementById("ex7").style.display= "block";
+        }
+
+        var bat= document.getElementById("8");
+        bat.onclick= function() {
+            document.getElementById("ex8").style.display= "block";
+        }
+    </script>
+</body>
+</html>
